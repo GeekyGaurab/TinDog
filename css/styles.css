@@ -1,0 +1,320 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Title section */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 3% 15% 7%;
+}
+
+/* Navigation bar */
+
+.navbar {
+  padding-bottom: 5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 1.1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* Title content */
+
+h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.download-button {
+  margin: 5% 5% 0 0;
+}
+
+.title-image {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+/* Features section */
+
+#features {
+  padding: 3% 10%;
+  background-color: white;
+  position: relative;
+}
+
+.features-column {
+  padding: 4rem 2.5rem;
+  text-align: center;
+}
+
+.features-icon {
+  color: #ef8172;
+  font-size: 3.5rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.features-heading {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.features-description {
+  margin-bottom: 0;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Testimonials section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-heading {
+  padding: 5% 15% 1.5%;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+/* Press section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 5% 10%;
+}
+
+.press-image {
+  width: 20%;
+  padding: 0 1.5rem;
+}
+
+/* Pricing section */
+
+#pricing {
+  padding: 5%;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.pricing-column {
+  padding: 2% 2%;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* CTA section */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 5% 15% 8%;
+  text-align: center;
+}
+
+.cta-heading {
+  color: #fff;
+}
+
+.download-button-2 {
+  margin: 4% 1.5rem 0 0;
+}
+
+/* Footer section */
+
+#footer {
+  padding: 6% 0 4%;
+  text-align: center;
+}
+
+.bottom-container {
+  margin-bottom: 1.5rem;
+}
+
+.footer-icon {
+  margin: 0 0.5rem;
+  color: black;
+  font-size: 1.5rem;
+  opacity: 0.5;
+}
+
+.footer-icon:hover {
+  color: #ff4c68;
+}
+
+/* Media queries for title section */
+
+@media screen and (max-width: 1150px) {
+  .navbar-brand {
+    font-size: 1.75rem;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  .title-heading {
+    font-size: 2.5rem;
+  }
+
+  .download-button {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .navbar {
+    padding-bottom: 4rem;
+  }
+
+  .download-button {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .download-button {
+    font-size: 1rem;
+  }
+}
+
+/* Media queries for testimonial section */
+
+@media screen and (max-width: 1270px) {
+  .testimonial-heading {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1065px) {
+  .testimonial-heading {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+
+  .testimonial-image {
+    width: 15%;
+  }
+
+  em {
+    font-size: 0.9rem;
+  }
+
+  .press-image {
+    width: 24%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #press {
+    padding: 5% 7%;
+  }
+
+  .press-image {
+    width: 24%;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  #press {
+    padding: 5% 0;
+  }
+
+  .testimonial-heading {
+    font-size: 1.7rem;
+  }
+
+  .testimonial-image {
+    width: 15%;
+  }
+
+  em {
+    font-size: 0.8rem;
+  }
+
+  .press-image {
+    width: 24.5%;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .testimonial-heading {
+    font-size: 1.5rem;
+  }
+
+  .testimonial-image {
+    width: 20%;
+  }
+
+  em {
+    font-size: 0.9rem;
+  }
+
+  .press-image {
+    width: 24%;
+  }
+}
+
+/* Media queries for CTA section */
+
+@media screen and (max-width: 1000px) {
+  .cta-heading {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .cta-heading {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 563px) {
+  .download-button-2 {
+    font-size: 1rem;
+  }
+}
